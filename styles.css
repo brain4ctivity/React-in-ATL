@@ -1,0 +1,81 @@
+html, body {
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+}
+
+.playlist {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90%;
+    background:rgb(0, 0, 0);
+    align-items: center;
+}
+
+.bottombar {
+    width: 100%;
+    height: 10%;
+    background:rgb(31, 31, 31);
+}
+
+.table-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.songs-nr {
+    width: 10%;
+}
+
+.song-cover {
+    width: 10%;
+}
+
+.song-title {
+    width: 30%;
+}
+
+.song-album {
+    width: 30%;
+}
+
+.song-duration {
+    width: 20%;
+}
+
+.songs {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.melody {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.melody > .song-cover {
+    height: 50px;
+    width: 50px;
+    margin-inline: auto;
+}
+
+* {
+    color: white;
+    text-align: center;
+}
